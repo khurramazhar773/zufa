@@ -68,10 +68,9 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
-  background: url(/assets/images/coming-soon-bg.jpg) top center no-repeat;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: 101vh;
 }
 
 body::before {
@@ -635,7 +634,7 @@ h6 {
   padding: 4px;
   width: 100%;
   background-color: var(--surface-color);
-  color: var(--default-color);
+
 }
 
 .hero .hero-newsletter .newsletter-form input[type=email]:focus-visible {
